@@ -4,62 +4,62 @@ A collection of some useful snippets such as shapes, animations, math, custom be
 
 ## Table of contents
 
-* [Shaping Functions]()
+* [Shaping Functions](shaping-functions)
 
-* [Shapes]()
+* [Shapes](shapes)
   
-  * [Circle]()
+  * [Circle](circle)
   
-  * [Generic shapes]()
+  * [Generic shapes](generic-shapes)
   
-  * [Box]()
+  * [Box](box)
   
-* [Colors]()
+* [Colors](colors)
 
-* [Transformation]()
+* [Transformation](transformation)
 
-  * [Translation]()
+  * [Translation](translation)
   
-  * [Rotation]()
+  * [Rotation](rotation)
   
-  * [Scale]()
+  * [Scale](scale)
   
-* [Math]()
+* [Math](math)
 
-  * [Vector to float conversion]()
+  * [Vector to float conversion](vector-to-float-conversion)
   
-  * [Scaling coordinate system]()
+  * [Scaling coordinate system](scaling-coordinate system)
   
-  * [Linear interpolation]()
+  * [Linear interpolation](linear-interpolation)
   
-  * [Smooth randomness]()
+  * [Smooth randomness](smooth-randomness)
   
-  #### Shaping Functions
+  ### Shaping Functions
   
   #### Shapes
   
-  ##### Circle
+  #### Circle
   
-  ##### Generic shapes
+  #### Generic shapes
   
-  ##### Box
+  #### Box
   
-  #### Colors
+  ### Colors
   
-  #### Transformation
+  ### Transformation
   
-  ##### Translation
+  #### Translation
   
-  ##### Rotation
+  #### Rotation
   
-  ##### Scale
+  #### Scale
   
-  #### Math
+  ### Math
   
-  ##### Vector to float conversion
+  #### Vector to float conversion
   
-  ##### Scaling coordinate system
+  #### Scaling coordinate system
   
-  ##### Linear interpolation
+  #### Linear interpolation
   
-  ##### Smooth randomness
+  #### Smooth randomness
