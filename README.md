@@ -36,6 +36,18 @@ A collection of some useful snippets such as shapes, animations, math, custom be
   
   ### Shaping Functions
   
+  **Shaping Functions** are the mathematical functions used in crafting shapes, for example - plotting a line using linear  interpolation. Application of these functions includes animating shapes, developing envelopes for music or controlling the flow of values in shaders.
+
+  <details>
+    <summary>**Impulse curve**</summary>
+    ```glsl
+      float impulse( float k, float x ) {
+        float h = k*x;
+        return h*exp(1.0-h);
+      }
+    ```
+  </details>
+  
   #### Shapes
   
   #### Circle
