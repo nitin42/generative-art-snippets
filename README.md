@@ -117,16 +117,75 @@ A collection of some useful snippets such as shapes, animations, math, custom be
   
   #### Translation
   
+  ```glsl
+  uniform vec2 u_resolution;
+  uniform float u_time;
+  
+  vec2 pt = gl_FragCoord.xy/u_resolution.xy;
+  
+  vec2 translate = vec2(cos(u_time),sin(u_time));
+  
+  pt += translate * 0.35;
+  ```
+  
   #### Rotation
   
+  ```glsl
+  uniform float u_time;
+
+  mat2 rotate2d(float _angle){
+    return mat2(cos(_angle),-sin(_angle), sin(_angle),cos(_angle));
+  }
+
+  vec2 st = gl_FragCoord.xy/u_resolution.xy;
+
+  st -= vec2(0.5);
+  st = rotate2d( sin(u_time)*3.1425 ) * st;
+  st += vec2(0.5);
+  ```
+  
   #### Scale
+  
+  ```glsl
+  mat2 scale(vec2 _scale){
+    return mat2(_scale.x,0.0, 0.0,_scale.y);
+  }
+  ```
   
   ### Math
   
   #### Vector to float conversion
   
+  Use dot product to convert vector to float type.
+  
+  ```glsl
+  float result = dot(vec2(0.5, 0.85), vec2(12.9898,78.233));
+  ```
+  
   #### Scaling coordinate system
+  
+  Scale a coordinate by `x` units
+  
+  ```glsl
+  vec2 pt = gl_FragCoord.xy/u_resolution.xy;
+
+  pt *= 10.0;
+  ```
   
   #### Linear interpolation
   
+  This is what I am using with Noise algorithm
+  
+  ```glsl
+  // 'i' is an integer and 'f' is a float value
+  mix(rand(i), rand(i + 1.0), f)
+  ```
+  
   #### Smooth randomness
+  
+ Need to apply smoothness when using 2D random noise ? Use this -
+ 
+ ```glsl
+ // 'i' is an integer and 'f' is a float value
+ mix(rand(i), rand(i + 1.0), smoothstep(0.,1.,f));
+ ```
