@@ -4,35 +4,35 @@ A collection of some useful snippets such as shapes, animations, math, custom be
 
 ## Table of contents
 
-* [Shaping Functions](shaping-functions)
+* [Shaping Functions](#shaping-functions)
 
-* [Shapes](shapes)
+* [Shapes](#shapes)
   
-  * [Circle](circle)
+  * [Circle](#circle)
   
-  * [Generic shapes](generic-shapes)
+  * [Generic shapes](#generic-shapes)
   
-  * [Box](box)
+  * [Box](#box)
   
-* [Colors](colors)
+* [Colors](#colors)
 
-* [Transformation](transformation)
+* [Transformation](#transformation)
 
-  * [Translation](translation)
+  * [Translation](#translation)
   
-  * [Rotation](rotation)
+  * [Rotation](#rotation)
   
-  * [Scale](scale)
+  * [Scale](#scale)
   
-* [Math](math)
+* [Math](#math)
 
-  * [Vector to float conversion](vector-to-float-conversion)
+  * [Vector to float conversion](#vector-to-float-conversion)
   
-  * [Scaling coordinate system](scaling-coordinate system)
+  * [Scaling coordinate system](#scaling-coordinate-system)
   
-  * [Linear interpolation](linear-interpolation)
+  * [Linear interpolation](#linear-interpolation)
   
-  * [Smooth randomness](smooth-randomness)
+  * [Smooth randomness](#smooth-randomness)
   
   ### Shaping Functions
   
