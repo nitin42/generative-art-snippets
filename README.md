@@ -44,6 +44,9 @@ float circle(in vec2 px, in float rad){
 Create any shape (circle, hexagon, triangle, etc) using the below function by specifying the number of sides and the current pixel position.
 
 ```glsl
+#define PI 3.14159265359
+#define TWO_PI 6.28318530718
+
 float genericShape(vec2 pt, int sides) {
   vec3 color = vec3(0.0);
   float d = 0.0;
